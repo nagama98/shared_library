@@ -24,7 +24,7 @@ println(responseText)
 
 //create quality gate
 
-def create(string name)
+def create(def name)
 {
 
 def conn = null
