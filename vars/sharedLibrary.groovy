@@ -29,7 +29,7 @@ def create(string name)
 
 def conn = null
 
-conn = new URL("http://localhost:9000/api/qualitygates/create?name="+name"").openConnection();
+conn = new URL("http://localhost:9000/api/qualitygates/create?name="+name+"").openConnection();
 conn.setRequestMethod("POST")
 conn.setRequestProperty("Authorization", "Basic YWRtaW46YWRtaW4x")
 conn.setDoOutput(true)
