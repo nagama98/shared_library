@@ -2,7 +2,7 @@ import groovy.json.*
 
 def conn = null
 
-conn = new URL("http://localhost:9000/api/qualitygates/create?name=demo").openConnection();
+conn = new URL("http://localhost:9000/api/qualitygates/create_condition?error=10&gateName=demo-qualitygate&metric=vulnerabilities&op=GT").openConnection();
 conn.setRequestMethod("POST")
 conn.setRequestProperty("Authorization", "Basic YWRtaW46YWRtaW4x")
 conn.setDoOutput(true)

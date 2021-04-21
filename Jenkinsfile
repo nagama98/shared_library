@@ -1,6 +1,6 @@
 
 
-@Library("https://github.com/nagama98/shared_library.git") _
+@Library("shared_library") _
 
 pipeline {
     agent any
