@@ -8,7 +8,8 @@ conn.setRequestProperty("Authorization", "Basic YWRtaW46YWRtaW4x")
 conn.setDoOutput(true)
         
 OutputStream os = conn.getOutputStream();
-os.write(body.getBytes("UTF-8"));
+//os.write(body.getBytes("UTF-8"));
+os.write();
 os.flush();
 os.close();
 

@@ -3,7 +3,7 @@ import groovy.json.*
 def hello(){
 println "Hello world"
 }
-
+/*
 
 //list quality gates
 def list(){
@@ -20,3 +20,4 @@ responseText = slurper.parseText(responseText)
      
 println(responseText)
 }
+*/
