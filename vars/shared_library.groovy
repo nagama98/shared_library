@@ -1,6 +1,6 @@
 import groovy.json.*
 //sample
-def hello(){
+def call(){
 println "Hello world"
 }
 
